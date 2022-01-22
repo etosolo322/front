@@ -1,0 +1,72 @@
+.panel_tabs{
+    background-color: rgb(229, 226, 229);
+    min-height: 450px;
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 100%;
+}
+.button_tabs{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button_tabs div{
+ height: 120px;
+ width: 120px;
+ border-radius: 5px;  
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ background-color: rgba(7, 5, 5, 0.938);
+ color:white;
+ margin: 0.5px;
+ box-shadow: 0 0 20px 2px rgb(25, 56, 56);
+}
+.button_tabs div:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.text_tabs{
+    flex-grow: 2;  
+}
+.all_tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15%;
+    height: 100%;
+}
+.images_tabs{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.images_tabs img{
+    max-height: 250px;
+}
+.title_text_tab{
+    font-weight: 700;
+}
+.text_text_tab{
+    color:rgb(83, 80, 81)
+}
+.download_text_tab{
+    padding:10px 20px;
+    background-color: orange;
+    width: max-content;
+    color:white;
+    border-radius: 8px;
+}
+.download_text_tab:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.click_tab2{
+    display: none;
+}
+.click_tab3{
+    display: none;
+}
